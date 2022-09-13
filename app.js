@@ -3,11 +3,9 @@ const app = Vue.createApp({
         return {
             songs: songs,
             input: "",
-            selectedSongs: [{Title: "African Flower",
-                AlternateTitle: "Petite Fleur Africaine",
-                PageNumber: 10,
-                Key: "Ebm",
-                Composer: "Duke Ellington"}]
+            selectedSongs: [],
+            searchType: ["Title", "Composer"],
+            selection: "Title"
         }
     },
     computed: {
@@ -18,9 +16,18 @@ const app = Vue.createApp({
         }
     },
     methods: {
-        addSong(selectedPage) {
-            this.selectedSongs.push(this.songs[selectedPage])
-            console.log(this.selectedSongs)
+        addSong(selectedPage, index) {
+            const selectedSong = this.songs.find(song => song.PageNumber === selectedPage)
+            selectedSong.Selected = true
+            this.selectedSongs.push(selectedSong)
+            console.log(index)
+        },
+        delSong(selectedPage, index) {
+            console.log(index)
+            const selectedSong = this.songs.find(song => song.PageNumber === selectedPage)
+            selectedSong.Selected = false
+            this.selectedSongs.splice(index, 1)
+
         }
     }
 })

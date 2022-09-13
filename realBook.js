@@ -4,7 +4,8 @@ const songs = [
        AlternateTitle: "Petite Fleur Africaine",
        PageNumber: 10,
        Key: "Ebm",
-       Composer: "Duke Ellington"
+       Composer: "Duke Ellington",
+       Selected: false
     },
     {
        Title: "Afro Blue",
@@ -12,6 +13,8 @@ const songs = [
        PageNumber: 11,
        Key: "Fm",
        Composer: "Mongo Santamaria"
+    ,
+       Selected: false
     },
     {
        Title: "Afternoon In Paris",
@@ -19,6 +22,8 @@ const songs = [
        PageNumber: 12,
        Key: "C",
        Composer: "John Lewis"
+    ,
+       Selected: false
     },
     {
        Title: "Airegin",
@@ -26,6 +31,8 @@ const songs = [
        PageNumber: 13,
        Key: "Ab",
        Composer: "Sonny Rollins"
+    ,
+       Selected: false
     },
     {
        Title: "Agua De Beber",
@@ -33,6 +40,8 @@ const songs = [
        PageNumber: 14,
        Key: "Am",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "Alfie",
@@ -40,6 +49,8 @@ const songs = [
        PageNumber: 16,
        Key: "C",
        Composer: "Burt Bacharach"
+    ,
+       Selected: false
     },
     {
        Title: "Alice In Wonderland",
@@ -47,6 +58,8 @@ const songs = [
        PageNumber: 17,
        Key: "C",
        Composer: "Sammy Fain"
+    ,
+       Selected: false
     },
     {
        Title: "All Blues",
@@ -54,6 +67,8 @@ const songs = [
        PageNumber: 18,
        Key: "G",
        Composer: "Miles Davis"
+    ,
+       Selected: false
     },
     {
        Title: "All By Myself",
@@ -61,6 +76,8 @@ const songs = [
        PageNumber: 19,
        Key: "C",
        Composer: "Eric Carmen"
+    ,
+       Selected: false
     },
     {
        Title: "All Of Me",
@@ -68,6 +85,8 @@ const songs = [
        PageNumber: 20,
        Key: "C",
        Composer: "Seymour Simons"
+    ,
+       Selected: false
     },
     {
        Title: "All Of You",
@@ -75,6 +94,8 @@ const songs = [
        PageNumber: 21,
        Key: "Eb",
        Composer: "Cole Porter"
+    ,
+       Selected: false
     },
     {
        Title: "All The Things You Are",
@@ -82,6 +103,8 @@ const songs = [
        PageNumber: 22,
        Key: "Ab",
        Composer: "Jerome Kern"
+    ,
+       Selected: false
     },
     {
        Title: "Always",
@@ -89,6 +112,8 @@ const songs = [
        PageNumber: 23,
        Key: "F",
        Composer: "Irving Berlin"
+    ,
+       Selected: false
     },
     {
        Title: "Alright Okay You Win",
@@ -96,6 +121,8 @@ const songs = [
        PageNumber: 24,
        Key: "Eb",
        Composer: "Sid Wyche"
+    ,
+       Selected: false
     },
     {
        Title: "Ana Maria",
@@ -103,6 +130,8 @@ const songs = [
        PageNumber: 26,
        Key: "n.a.",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Angel Eyes",
@@ -110,6 +139,8 @@ const songs = [
        PageNumber: 28,
        Key: "Eb",
        Composer: "Matt Dennis"
+    ,
+       Selected: false
     },
     {
        Title: "Anthropology",
@@ -117,6 +148,8 @@ const songs = [
        PageNumber: 29,
        Key: "Bb",
        Composer: "Charlie Parker"
+    ,
+       Selected: false
     },
     {
        Title: "Apple Honey",
@@ -124,6 +157,8 @@ const songs = [
        PageNumber: 30,
        Key: "Bb",
        Composer: "Woody Herman"
+    ,
+       Selected: false
     },
     {
        Title: "April In Paris",
@@ -131,6 +166,8 @@ const songs = [
        PageNumber: 32,
        Key: "C",
        Composer: "Vernon Duke"
+    ,
+       Selected: false
     },
     {
        Title: "April Joy",
@@ -138,6 +175,8 @@ const songs = [
        PageNumber: 33,
        Key: "C",
        Composer: "Pat Metheny"
+    ,
+       Selected: false
     },
     {
        Title: "Arise Her Eyes",
@@ -145,6 +184,8 @@ const songs = [
        PageNumber: 34,
        Key: "C",
        Composer: "Steve Swallow"
+    ,
+       Selected: false
     },
     {
        Title: "Armageddon",
@@ -152,6 +193,8 @@ const songs = [
        PageNumber: 36,
        Key: "n.a.",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Au Privave",
@@ -159,6 +202,8 @@ const songs = [
        PageNumber: 37,
        Key: "F",
        Composer: "Charlie Parker"
+    ,
+       Selected: false
     },
     {
        Title: "Autumn In New York",
@@ -166,6 +211,8 @@ const songs = [
        PageNumber: 38,
        Key: "F",
        Composer: "Vernon Duke"
+    ,
+       Selected: false
     },
     {
        Title: "Autumn Leaves",
@@ -173,6 +220,8 @@ const songs = [
        PageNumber: 39,
        Key: "G",
        Composer: "Joseph Kosma"
+    ,
+       Selected: false
     },
     {
        Title: "Beautiful Love",
@@ -180,6 +229,8 @@ const songs = [
        PageNumber: 40,
        Key: "F",
        Composer: "Wayne King|Victor Young|van Alstyne"
+    ,
+       Selected: false
     },
     {
        Title: "Beauty And The Beast",
@@ -187,6 +238,8 @@ const songs = [
        PageNumber: 41,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Bessie's Blues",
@@ -194,6 +247,8 @@ const songs = [
        PageNumber: 42,
        Key: "Eb",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Bewitched",
@@ -201,6 +256,8 @@ const songs = [
        PageNumber: 43,
        Key: "C",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "Big Nick",
@@ -208,6 +265,8 @@ const songs = [
        PageNumber: 44,
        Key: "G",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Black Coffee",
@@ -215,6 +274,8 @@ const songs = [
        PageNumber: 45,
        Key: "F",
        Composer: "Sonny Burke"
+    ,
+       Selected: false
     },
     {
        Title: "Black Diamond",
@@ -222,6 +283,8 @@ const songs = [
        PageNumber: 46,
        Key: "F",
        Composer: "Roland Kirk"
+    ,
+       Selected: false
     },
     {
        Title: "Black Narcissus",
@@ -229,6 +292,8 @@ const songs = [
        PageNumber: 47,
        Key: "C",
        Composer: "Joe Henderson"
+    ,
+       Selected: false
     },
     {
        Title: "Black Nile",
@@ -236,6 +301,8 @@ const songs = [
        PageNumber: 48,
        Key: "F",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Black Orpheus",
@@ -243,6 +310,8 @@ const songs = [
        PageNumber: 49,
        Key: "Am",
        Composer: "Luiz Bonfa"
+    ,
+       Selected: false
     },
     {
        Title: "Blue Bossa",
@@ -250,6 +319,8 @@ const songs = [
        PageNumber: 50,
        Key: "Eb",
        Composer: "Kenny Dorham"
+    ,
+       Selected: false
     },
     {
        Title: "Blue In Green",
@@ -257,6 +328,8 @@ const songs = [
        PageNumber: 51,
        Key: "C",
        Composer: "Miles Davis"
+    ,
+       Selected: false
     },
     {
        Title: "Blue Monk",
@@ -264,6 +337,8 @@ const songs = [
        PageNumber: 52,
        Key: "Bb",
        Composer: "Thelonious Monk"
+    ,
+       Selected: false
     },
     {
        Title: "Blue Room, The",
@@ -271,6 +346,8 @@ const songs = [
        PageNumber: 53,
        Key: "F",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "Blue Train",
@@ -278,6 +355,8 @@ const songs = [
        PageNumber: 54,
        Key: "Eb",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Blues For Alice",
@@ -285,6 +364,8 @@ const songs = [
        PageNumber: 55,
        Key: "F",
        Composer: "Charlie Parker"
+    ,
+       Selected: false
     },
     {
        Title: "Bluesette",
@@ -292,6 +373,8 @@ const songs = [
        PageNumber: 56,
        Key: "Bb",
        Composer: "Toots Thielemans"
+    ,
+       Selected: false
     },
     {
        Title: "Body And Soul",
@@ -299,6 +382,8 @@ const songs = [
        PageNumber: 57,
        Key: "Db",
        Composer: "Johnny Green"
+    ,
+       Selected: false
     },
     {
        Title: "Boplicity",
@@ -306,6 +391,8 @@ const songs = [
        PageNumber: 58,
        Key: "F",
        Composer: "Miles Davis"
+    ,
+       Selected: false
     },
     {
        Title: "Bright Size Life",
@@ -313,6 +400,8 @@ const songs = [
        PageNumber: 59,
        Key: "Db",
        Composer: "Pat Metheny"
+    ,
+       Selected: false
     },
     {
        Title: "Broad Way Blues",
@@ -320,6 +409,8 @@ const songs = [
        PageNumber: 60,
        Key: "Eb",
        Composer: "Ornette Coleman"
+    ,
+       Selected: false
     },
     {
        Title: "Broadway",
@@ -327,6 +418,8 @@ const songs = [
        PageNumber: 61,
        Key: "Eb",
        Composer: "Bill Byrd"
+    ,
+       Selected: false
     },
     {
        Title: "But Beautiful",
@@ -334,6 +427,8 @@ const songs = [
        PageNumber: 62,
        Key: "G",
        Composer: "Jimmy Van Heusen"
+    ,
+       Selected: false
     },
     {
        Title: "Butterfly",
@@ -341,6 +436,8 @@ const songs = [
        PageNumber: 63,
        Key: "C",
        Composer: "Herbie Hancock"
+    ,
+       Selected: false
     },
     {
        Title: "Byrd Like",
@@ -348,6 +445,8 @@ const songs = [
        PageNumber: 64,
        Key: "F",
        Composer: "Freddie Hubbard"
+    ,
+       Selected: false
     },
     {
        Title: "C'est Si Bon",
@@ -355,6 +454,8 @@ const songs = [
        PageNumber: 65,
        Key: "Bb",
        Composer: "Henri Betti"
+    ,
+       Selected: false
     },
     {
        Title: "Call Me",
@@ -362,6 +463,8 @@ const songs = [
        PageNumber: 66,
        Key: "C",
        Composer: "Giorgio Moroder"
+    ,
+       Selected: false
     },
     {
        Title: "Call Me Irresponsible",
@@ -369,6 +472,8 @@ const songs = [
        PageNumber: 67,
        Key: "C",
        Composer: "Jimmy Van Heusen"
+    ,
+       Selected: false
     },
     {
        Title: "Can't Help Lovin' Dat Man",
@@ -376,6 +481,8 @@ const songs = [
        PageNumber: 68,
        Key: "Eb",
        Composer: "Jerome Kern"
+    ,
+       Selected: false
     },
     {
        Title: "Central Park West",
@@ -383,6 +490,8 @@ const songs = [
        PageNumber: 69,
        Key: "H",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Captain Marvel",
@@ -390,6 +499,8 @@ const songs = [
        PageNumber: 70,
        Key: "n.a.",
        Composer: "Chick Corea"
+    ,
+       Selected: false
     },
     {
        Title: "Ceora",
@@ -397,6 +508,8 @@ const songs = [
        PageNumber: 72,
        Key: "Ab",
        Composer: "Lee Morgan"
+    ,
+       Selected: false
     },
     {
        Title: "Chelsea Bells",
@@ -404,6 +517,8 @@ const songs = [
        PageNumber: 73,
        Key: "n.a.",
        Composer: "Steve Swallow"
+    ,
+       Selected: false
     },
     {
        Title: "Chega De Saudade",
@@ -411,6 +526,8 @@ const songs = [
        PageNumber: 74,
        Key: "F",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "Chelsea Bridge",
@@ -418,6 +535,8 @@ const songs = [
        PageNumber: 76,
        Key: "Db",
        Composer: "Billy Strayhorn"
+    ,
+       Selected: false
     },
     {
        Title: "Cherokee",
@@ -425,6 +544,8 @@ const songs = [
        PageNumber: 77,
        Key: "Bb",
        Composer: "Ray Noble"
+    ,
+       Selected: false
     },
     {
        Title: "Cherry Pink And Apple Blossom White",
@@ -432,6 +553,8 @@ const songs = [
        PageNumber: 78,
        Key: "Eb",
        Composer: "Marcel Louiguy"
+    ,
+       Selected: false
     },
     {
        Title: "A Child Is Born",
@@ -439,6 +562,8 @@ const songs = [
        PageNumber: 79,
        Key: "Bb",
        Composer: "Thad Jones"
+    ,
+       Selected: false
     },
     {
        Title: "Chippie",
@@ -446,6 +571,8 @@ const songs = [
        PageNumber: 80,
        Key: "F",
        Composer: "Ornette Coleman"
+    ,
+       Selected: false
     },
     {
        Title: "Chitlins Con Carne",
@@ -453,6 +580,8 @@ const songs = [
        PageNumber: 81,
        Key: "C",
        Composer: "Kenny Burrell"
+    ,
+       Selected: false
     },
     {
        Title: "Come Sunday",
@@ -460,6 +589,8 @@ const songs = [
        PageNumber: 82,
        Key: "Bb",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "Como En Vietnam",
@@ -467,6 +598,8 @@ const songs = [
        PageNumber: 83,
        Key: "Db",
        Composer: "Steve Swallow"
+    ,
+       Selected: false
     },
     {
        Title: "Con Alma",
@@ -474,6 +607,8 @@ const songs = [
        PageNumber: 84,
        Key: "C",
        Composer: "Dizzy Gillespie"
+    ,
+       Selected: false
     },
     {
        Title: "Conception",
@@ -481,6 +616,8 @@ const songs = [
        PageNumber: 86,
        Key: "Db",
        Composer: "George Shearing"
+    ,
+       Selected: false
     },
     {
        Title: "Confirmation",
@@ -488,6 +625,8 @@ const songs = [
        PageNumber: 87,
        Key: "F",
        Composer: "Charlie Parker"
+    ,
+       Selected: false
     },
     {
        Title: "Contemplation",
@@ -495,6 +634,8 @@ const songs = [
        PageNumber: 88,
        Key: "Eb",
        Composer: "McCoy Tyner"
+    ,
+       Selected: false
     },
     {
        Title: "Coral",
@@ -502,6 +643,8 @@ const songs = [
        PageNumber: 89,
        Key: "Bb",
        Composer: "Keith Jarrett"
+    ,
+       Selected: false
     },
     {
        Title: "Cotton Tail",
@@ -509,6 +652,8 @@ const songs = [
        PageNumber: 90,
        Key: "Bb",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "Could It Be You",
@@ -516,6 +661,8 @@ const songs = [
        PageNumber: 91,
        Key: "Bb",
        Composer: "Cole Porter"
+    ,
+       Selected: false
     },
     {
        Title: "Countdown",
@@ -523,6 +670,8 @@ const songs = [
        PageNumber: 92,
        Key: "C",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Crescent",
@@ -530,6 +679,8 @@ const songs = [
        PageNumber: 93,
        Key: "Eb",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Crystal Silence",
@@ -537,6 +688,8 @@ const songs = [
        PageNumber: 94,
        Key: "Am",
        Composer: "Chick Corea"
+    ,
+       Selected: false
     },
     {
        Title: "D Natural Blues",
@@ -544,6 +697,8 @@ const songs = [
        PageNumber: 95,
        Key: "D",
        Composer: "Wes Montgomery"
+    ,
+       Selected: false
     },
     {
        Title: "Daahoud",
@@ -551,6 +706,8 @@ const songs = [
        PageNumber: 96,
        Key: "Eb",
        Composer: "Clifford Brown"
+    ,
+       Selected: false
     },
     {
        Title: "Dancing On The Ceiling",
@@ -558,6 +715,8 @@ const songs = [
        PageNumber: 98,
        Key: "F",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "Darn That Dream",
@@ -565,6 +724,8 @@ const songs = [
        PageNumber: 99,
        Key: "G",
        Composer: "Jimmy Van Heusen"
+    ,
+       Selected: false
     },
     {
        Title: "Day Waves",
@@ -572,6 +733,8 @@ const songs = [
        PageNumber: 100,
        Key: "C",
        Composer: "Chick Corea"
+    ,
+       Selected: false
     },
     {
        Title: "Days And Nights Waiting",
@@ -579,6 +742,8 @@ const songs = [
        PageNumber: 101,
        Key: "C",
        Composer: "Keith Jarrett"
+    ,
+       Selected: false
     },
     {
        Title: "Dear Old Stockholm",
@@ -586,6 +751,8 @@ const songs = [
        PageNumber: 102,
        Key: "F",
        Composer: "Traditional"
+    ,
+       Selected: false
     },
     {
        Title: "Dearly Beloved",
@@ -593,6 +760,8 @@ const songs = [
        PageNumber: 103,
        Key: "C",
        Composer: "Jerome Kern"
+    ,
+       Selected: false
     },
     {
        Title: "Dedicated To You",
@@ -600,6 +769,8 @@ const songs = [
        PageNumber: 104,
        Key: "Bb",
        Composer: "Sammy Cahn"
+    ,
+       Selected: false
     },
     {
        Title: "Detour Ahead",
@@ -607,6 +778,8 @@ const songs = [
        PageNumber: 105,
        Key: "C",
        Composer: "Herb Ellis"
+    ,
+       Selected: false
     },
     {
        Title: "Deluge",
@@ -614,6 +787,8 @@ const songs = [
        PageNumber: 106,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Desafinado",
@@ -621,6 +796,8 @@ const songs = [
        PageNumber: 108,
        Key: "F",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "Desert Air",
@@ -628,6 +805,8 @@ const songs = [
        PageNumber: 110,
        Key: "C",
        Composer: "Chick Corea"
+    ,
+       Selected: false
     },
     {
        Title: "Dexterity",
@@ -635,6 +814,8 @@ const songs = [
        PageNumber: 112,
        Key: "Bb",
        Composer: "Charlie Parker"
+    ,
+       Selected: false
     },
     {
        Title: "Dizzy Atmosphere",
@@ -642,6 +823,8 @@ const songs = [
        PageNumber: 113,
        Key: "Ab",
        Composer: "Dizzy Gillespie"
+    ,
+       Selected: false
     },
     {
        Title: "Django",
@@ -649,6 +832,8 @@ const songs = [
        PageNumber: 114,
        Key: "Ab",
        Composer: "John Lewis"
+    ,
+       Selected: false
     },
     {
        Title: "Doin' The Pig",
@@ -656,6 +841,8 @@ const songs = [
        PageNumber: 116,
        Key: "G",
        Composer: "Steve Swallow"
+    ,
+       Selected: false
     },
     {
        Title: "Dolores",
@@ -663,6 +850,8 @@ const songs = [
        PageNumber: 118,
        Key: "n.a.",
        Composer: "Louis Alter"
+    ,
+       Selected: false
     },
     {
        Title: "Dolphin Dance",
@@ -670,6 +859,8 @@ const songs = [
        PageNumber: 119,
        Key: "n.a.",
        Composer: "Herbie Hancock"
+    ,
+       Selected: false
     },
     {
        Title: "Domino Biscuit",
@@ -677,6 +868,8 @@ const songs = [
        PageNumber: 120,
        Key: "Db",
        Composer: "Steve Swallow"
+    ,
+       Selected: false
     },
     {
        Title: "Don't Blame Me",
@@ -684,6 +877,8 @@ const songs = [
        PageNumber: 121,
        Key: "C",
        Composer: "Jimmy McHugh"
+    ,
+       Selected: false
     },
     {
        Title: "Don't Get Around Much Anymore",
@@ -691,6 +886,8 @@ const songs = [
        PageNumber: 122,
        Key: "C",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "Donna Lee",
@@ -698,6 +895,8 @@ const songs = [
        PageNumber: 123,
        Key: "Ab",
        Composer: "Charlie Parker"
+    ,
+       Selected: false
     },
     {
        Title: "Dream A Little Dream Of Me",
@@ -705,6 +904,8 @@ const songs = [
        PageNumber: 124,
        Key: "G",
        Composer: "Fabian Andre|Wilbur Schwandt"
+    ,
+       Selected: false
     },
     {
        Title: "Dreamsville",
@@ -712,6 +913,8 @@ const songs = [
        PageNumber: 125,
        Key: "C",
        Composer: "Henry Mancini"
+    ,
+       Selected: false
     },
     {
        Title: "Easter Parade",
@@ -719,6 +922,8 @@ const songs = [
        PageNumber: 126,
        Key: "Bb",
        Composer: "Irving Berlin"
+    ,
+       Selected: false
     },
     {
        Title: "Easy Living",
@@ -726,6 +931,8 @@ const songs = [
        PageNumber: 127,
        Key: "F",
        Composer: "Leo Robin"
+    ,
+       Selected: false
     },
     {
        Title: "Easy To Love",
@@ -733,6 +940,8 @@ const songs = [
        PageNumber: 128,
        Key: "C",
        Composer: "Cole Porter"
+    ,
+       Selected: false
     },
     {
        Title: "Ecclusiastics",
@@ -740,6 +949,8 @@ const songs = [
        PageNumber: 129,
        Key: "F",
        Composer: "Charles Mingus"
+    ,
+       Selected: false
     },
     {
        Title: "Eighty One",
@@ -747,6 +958,8 @@ const songs = [
        PageNumber: 130,
        Key: "F",
        Composer: "Ron Carter"
+    ,
+       Selected: false
     },
     {
        Title: "El Gaucho",
@@ -754,6 +967,8 @@ const songs = [
        PageNumber: 131,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Epistrophy",
@@ -761,6 +976,8 @@ const songs = [
        PageNumber: 132,
        Key: "C",
        Composer: "Thelonious Monk"
+    ,
+       Selected: false
     },
     {
        Title: "Equinox",
@@ -768,6 +985,8 @@ const songs = [
        PageNumber: 133,
        Key: "E",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Equipoise",
@@ -775,6 +994,8 @@ const songs = [
        PageNumber: 134,
        Key: "Ab",
        Composer: "Stanley Cowell"
+    ,
+       Selected: false
     },
     {
        Title: "E.S.P.",
@@ -782,6 +1003,8 @@ const songs = [
        PageNumber: 135,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Fall",
@@ -789,6 +1012,8 @@ const songs = [
        PageNumber: 136,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Falling Grace",
@@ -796,6 +1021,8 @@ const songs = [
        PageNumber: 137,
        Key: "C",
        Composer: "Steve Swallow"
+    ,
+       Selected: false
     },
     {
        Title: "Falling In Love With Love",
@@ -803,6 +1030,8 @@ const songs = [
        PageNumber: 138,
        Key: "Bb",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "Fee-Fi-Fo-Fum",
@@ -810,6 +1039,8 @@ const songs = [
        PageNumber: 139,
        Key: "n.a.",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "A Fine Romance",
@@ -817,6 +1048,8 @@ const songs = [
        PageNumber: 140,
        Key: "C",
        Composer: "Jerome Kern"
+    ,
+       Selected: false
     },
     {
        Title: "500 Miles High",
@@ -824,6 +1057,8 @@ const songs = [
        PageNumber: 141,
        Key: "n.a.",
        Composer: "Chick Corea"
+    ,
+       Selected: false
     },
     {
        Title: "502 Blues",
@@ -831,6 +1066,8 @@ const songs = [
        PageNumber: 142,
        Key: "Am",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Follow Your Heart",
@@ -838,6 +1075,8 @@ const songs = [
        PageNumber: 143,
        Key: "E",
        Composer: "John McLaughlin"
+    ,
+       Selected: false
     },
     {
        Title: "Footprints",
@@ -845,6 +1084,8 @@ const songs = [
        PageNumber: 144,
        Key: "Eb",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "For All We Know",
@@ -852,6 +1093,8 @@ const songs = [
        PageNumber: 145,
        Key: "Eb",
        Composer: "J. Fred Coots"
+    ,
+       Selected: false
     },
     {
        Title: "For Heaven's Sake",
@@ -859,6 +1102,8 @@ const songs = [
        PageNumber: 146,
        Key: "F",
        Composer: "Don Meyer"
+    ,
+       Selected: false
     },
     {
        Title: "For Sentimental Reasons",
@@ -866,6 +1111,8 @@ const songs = [
        PageNumber: 147,
        Key: "F",
        Composer: "William Best|Deek Watson"
+    ,
+       Selected: false
     },
     {
        Title: "Forest Flower.",
@@ -873,6 +1120,8 @@ const songs = [
        PageNumber: 148,
        Key: "C",
        Composer: "Charles F. Lloyd"
+    ,
+       Selected: false
     },
     {
        Title: "Four",
@@ -880,6 +1129,8 @@ const songs = [
        PageNumber: 149,
        Key: "Eb",
        Composer: "Miles Davis"
+    ,
+       Selected: false
     },
     {
        Title: "Four On Six",
@@ -887,6 +1138,8 @@ const songs = [
        PageNumber: 150,
        Key: "C",
        Composer: "Wes Montgomery"
+    ,
+       Selected: false
     },
     {
        Title: "Freddie Freeloader",
@@ -894,6 +1147,8 @@ const songs = [
        PageNumber: 151,
        Key: "Bb",
        Composer: "Miles Davis"
+    ,
+       Selected: false
     },
     {
        Title: "Freedom Jazz Dance",
@@ -901,6 +1156,8 @@ const songs = [
        PageNumber: 152,
        Key: "Bb",
        Composer: "Eddie Harris"
+    ,
+       Selected: false
     },
     {
        Title: "Gee Baby Ain't I Good To You",
@@ -908,6 +1165,8 @@ const songs = [
        PageNumber: 153,
        Key: "Eb",
        Composer: "Andy Razaf"
+    ,
+       Selected: false
     },
     {
        Title: "Full House",
@@ -915,6 +1174,8 @@ const songs = [
        PageNumber: 154,
        Key: "Ab",
        Composer: "David Sanborn"
+    ,
+       Selected: false
     },
     {
        Title: "Gemini",
@@ -922,6 +1183,8 @@ const songs = [
        PageNumber: 156,
        Key: "Eb",
        Composer: "Jimmy Heath"
+    ,
+       Selected: false
     },
     {
        Title: "Giant Steps",
@@ -929,6 +1192,8 @@ const songs = [
        PageNumber: 157,
        Key: "n.a.",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Girl From Ipanema, The",
@@ -936,6 +1201,8 @@ const songs = [
        PageNumber: 158,
        Key: "F",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "Gloria's Step",
@@ -943,6 +1210,8 @@ const songs = [
        PageNumber: 159,
        Key: "n.a.",
        Composer: "Scott La Faro"
+    ,
+       Selected: false
     },
     {
        Title: "God Bless The Child",
@@ -950,6 +1219,8 @@ const songs = [
        PageNumber: 160,
        Key: "Eb",
        Composer: "Arthur Jr. Herzog"
+    ,
+       Selected: false
     },
     {
        Title: "Golden Lady",
@@ -957,6 +1228,8 @@ const songs = [
        PageNumber: 161,
        Key: "Eb",
        Composer: "Stevie Wonder"
+    ,
+       Selected: false
     },
     {
        Title: "Good Evening Mr. And Mrs. America",
@@ -964,6 +1237,8 @@ const songs = [
        PageNumber: 162,
        Key: "C",
        Composer: "John Guerin"
+    ,
+       Selected: false
     },
     {
        Title: "Grand Central",
@@ -971,6 +1246,8 @@ const songs = [
        PageNumber: 164,
        Key: "Ab",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Green Mountains, The",
@@ -978,6 +1255,8 @@ const songs = [
        PageNumber: 165,
        Key: "C",
        Composer: "Steve Swallow"
+    ,
+       Selected: false
     },
     {
        Title: "Groovin' High",
@@ -985,6 +1264,8 @@ const songs = [
        PageNumber: 166,
        Key: "Eb",
        Composer: "Dizzy Gillespie"
+    ,
+       Selected: false
     },
     {
        Title: "Grow Your Own",
@@ -992,6 +1273,8 @@ const songs = [
        PageNumber: 167,
        Key: "F",
        Composer: "Keith Jarrett"
+    ,
+       Selected: false
     },
     {
        Title: "Guilty",
@@ -999,6 +1282,8 @@ const songs = [
        PageNumber: 168,
        Key: "Bb",
        Composer: "Barry Gibb"
+    ,
+       Selected: false
     },
     {
        Title: "Gypsy In My Soul",
@@ -1006,6 +1291,8 @@ const songs = [
        PageNumber: 169,
        Key: "Eb",
        Composer: "Moe Jaffe"
+    ,
+       Selected: false
     },
     {
        Title: "Half Nelson",
@@ -1013,6 +1300,8 @@ const songs = [
        PageNumber: 170,
        Key: "C",
        Composer: "Miles Davis"
+    ,
+       Selected: false
     },
     {
        Title: "Have You Met Miss Jones?",
@@ -1020,6 +1309,8 @@ const songs = [
        PageNumber: 172,
        Key: "F",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "Heaven",
@@ -1027,6 +1318,8 @@ const songs = [
        PageNumber: 173,
        Key: "Bb",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "Heebie Jeebies",
@@ -1034,6 +1327,8 @@ const songs = [
        PageNumber: 174,
        Key: "G",
        Composer: "Boyd Atkins"
+    ,
+       Selected: false
     },
     {
        Title: "Here's That Rainy Day",
@@ -1041,6 +1336,8 @@ const songs = [
        PageNumber: 175,
        Key: "G",
        Composer: "Jimmy Van Heusen"
+    ,
+       Selected: false
     },
     {
        Title: "Hello Young Lovers",
@@ -1048,6 +1345,8 @@ const songs = [
        PageNumber: 176,
        Key: "C",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "Hot Toddy",
@@ -1055,6 +1354,8 @@ const songs = [
        PageNumber: 178,
        Key: "F",
        Composer: "Herb Hendler"
+    ,
+       Selected: false
     },
     {
        Title: "House Of Jade",
@@ -1062,6 +1363,8 @@ const songs = [
        PageNumber: 179,
        Key: "Eb",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "How High The Moon",
@@ -1069,6 +1372,8 @@ const songs = [
        PageNumber: 180,
        Key: "C",
        Composer: "Morgan Lewis"
+    ,
+       Selected: false
     },
     {
        Title: "How Insensitive",
@@ -1076,6 +1381,8 @@ const songs = [
        PageNumber: 181,
        Key: "F",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "How My Heart Sings",
@@ -1083,6 +1390,8 @@ const songs = [
        PageNumber: 182,
        Key: "C",
        Composer: "Earl Zindars"
+    ,
+       Selected: false
     },
     {
        Title: "Hullo Bolinas",
@@ -1090,6 +1399,8 @@ const songs = [
        PageNumber: 183,
        Key: "C",
        Composer: "Steve Swallow"
+    ,
+       Selected: false
     },
     {
        Title: "I Can't Get Started With You",
@@ -1097,6 +1408,8 @@ const songs = [
        PageNumber: 184,
        Key: "C",
        Composer: "Vernon Duke"
+    ,
+       Selected: false
     },
     {
        Title: "I Can't Give You Anything But Love",
@@ -1104,6 +1417,8 @@ const songs = [
        PageNumber: 185,
        Key: "G",
        Composer: "Jimmy McHugh"
+    ,
+       Selected: false
     },
     {
        Title: "I Could Write A Book",
@@ -1111,6 +1426,8 @@ const songs = [
        PageNumber: 186,
        Key: "C",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "I Got It Bad And That Ain't Good",
@@ -1118,6 +1435,8 @@ const songs = [
        PageNumber: 187,
        Key: "G",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "I Let A Song Go Out Of My Heart",
@@ -1125,6 +1444,8 @@ const songs = [
        PageNumber: 188,
        Key: "Eb",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "I Love Paris",
@@ -1132,6 +1453,8 @@ const songs = [
        PageNumber: 189,
        Key: "Eb",
        Composer: "Cole Porter"
+    ,
+       Selected: false
     },
     {
        Title: "I Love You",
@@ -1139,6 +1462,8 @@ const songs = [
        PageNumber: 190,
        Key: "F",
        Composer: "Cole Porter"
+    ,
+       Selected: false
     },
     {
        Title: "I Mean You",
@@ -1146,6 +1471,8 @@ const songs = [
        PageNumber: 191,
        Key: "F",
        Composer: "Thelonious Monk"
+    ,
+       Selected: false
     },
     {
        Title: "I Remember Clifford",
@@ -1153,6 +1480,8 @@ const songs = [
        PageNumber: 192,
        Key: "Eb",
        Composer: "Benny Golson"
+    ,
+       Selected: false
     },
     {
        Title: "I Should Care",
@@ -1160,6 +1489,8 @@ const songs = [
        PageNumber: 194,
        Key: "C",
        Composer: "Sammy Cahn"
+    ,
+       Selected: false
     },
     {
        Title: "I Wish I Knew How It Would Feel To Be Free",
@@ -1167,6 +1498,8 @@ const songs = [
        PageNumber: 195,
        Key: "F",
        Composer: "Billy Taylor"
+    ,
+       Selected: false
     },
     {
        Title: "I'll Never Smile Again",
@@ -1174,6 +1507,8 @@ const songs = [
        PageNumber: 196,
        Key: "Eb",
        Composer: "Ruth Lowe"
+    ,
+       Selected: false
     },
     {
        Title: "I'll Remember April",
@@ -1181,6 +1516,8 @@ const songs = [
        PageNumber: 197,
        Key: "G",
        Composer: "Raye-DePaul"
+    ,
+       Selected: false
     },
     {
        Title: "I'm All Smiles",
@@ -1188,6 +1525,8 @@ const songs = [
        PageNumber: 198,
        Key: "D",
        Composer: "Michel LeGrand"
+    ,
+       Selected: false
     },
     {
        Title: "I'm Beginning To See The Light",
@@ -1195,6 +1534,8 @@ const songs = [
        PageNumber: 200,
        Key: "G",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "I'm Your Pal",
@@ -1202,6 +1543,8 @@ const songs = [
        PageNumber: 201,
        Key: "C",
        Composer: "Steve Swallow"
+    ,
+       Selected: false
     },
     {
        Title: "Icarus",
@@ -1209,6 +1552,8 @@ const songs = [
        PageNumber: 202,
        Key: "G",
        Composer: "Ralph Towner"
+    ,
+       Selected: false
     },
     {
        Title: "If You Never Come To Me",
@@ -1216,6 +1561,8 @@ const songs = [
        PageNumber: 204,
        Key: "C",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "Impressions",
@@ -1223,6 +1570,8 @@ const songs = [
        PageNumber: 205,
        Key: "C",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "In A Mellow Tone",
@@ -1230,6 +1579,8 @@ const songs = [
        PageNumber: 206,
        Key: "Ab",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "In A Sentimental Mood",
@@ -1237,6 +1588,8 @@ const songs = [
        PageNumber: 207,
        Key: "F",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "In The Mood",
@@ -1244,6 +1597,8 @@ const songs = [
        PageNumber: 208,
        Key: "Ab",
        Composer: "Joe Garland"
+    ,
+       Selected: false
     },
     {
        Title: "In The Wee Small Hours Of The Morning",
@@ -1251,6 +1606,8 @@ const songs = [
        PageNumber: 210,
        Key: "C",
        Composer: "David Mann"
+    ,
+       Selected: false
     },
     {
        Title: "In Your Quiet Place",
@@ -1258,6 +1615,8 @@ const songs = [
        PageNumber: 211,
        Key: "C",
        Composer: "Keith Jarrett"
+    ,
+       Selected: false
     },
     {
        Title: "Inch Worm, The",
@@ -1265,6 +1624,8 @@ const songs = [
        PageNumber: 212,
        Key: "F",
        Composer: "Frank Loesser"
+    ,
+       Selected: false
     },
     {
        Title: "Indian Lady",
@@ -1272,6 +1633,8 @@ const songs = [
        PageNumber: 213,
        Key: "A",
        Composer: "Don Ellis"
+    ,
+       Selected: false
     },
     {
        Title: "Inner Urge",
@@ -1279,6 +1642,8 @@ const songs = [
        PageNumber: 214,
        Key: "C",
        Composer: "Joe Henderson"
+    ,
+       Selected: false
     },
     {
        Title: "Interplay",
@@ -1286,6 +1651,8 @@ const songs = [
        PageNumber: 215,
        Key: "Ab",
        Composer: "Bill Evans"
+    ,
+       Selected: false
     },
     {
        Title: "Intrepid Fox, The",
@@ -1293,6 +1660,8 @@ const songs = [
        PageNumber: 216,
        Key: "C",
        Composer: "Freddie Hubbard"
+    ,
+       Selected: false
     },
     {
        Title: "Invitation",
@@ -1300,6 +1669,8 @@ const songs = [
        PageNumber: 217,
        Key: "Eb",
        Composer: "Bronislau Kaper"
+    ,
+       Selected: false
     },
     {
        Title: "Iris",
@@ -1307,6 +1678,8 @@ const songs = [
        PageNumber: 218,
        Key: "C",
        Composer: "John Rzeznik"
+    ,
+       Selected: false
     },
     {
        Title: "Isn't It Romantic?",
@@ -1314,6 +1687,8 @@ const songs = [
        PageNumber: 219,
        Key: "Eb",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "Is You Is Or Is You Ain't (ma' Baby)",
@@ -1321,6 +1696,8 @@ const songs = [
        PageNumber: 220,
        Key: "Ab",
        Composer: "Louis Jordan"
+    ,
+       Selected: false
     },
     {
        Title: "Isotope",
@@ -1328,6 +1705,8 @@ const songs = [
        PageNumber: 222,
        Key: "C",
        Composer: "Joe Henderson"
+    ,
+       Selected: false
     },
     {
        Title: "Israel",
@@ -1335,6 +1714,8 @@ const songs = [
        PageNumber: 223,
        Key: "Dm",
        Composer: "John Carisi"
+    ,
+       Selected: false
     },
     {
        Title: "It Don't Mean A Thing (If It Ain't Got That Swing)",
@@ -1342,6 +1723,8 @@ const songs = [
        PageNumber: 224,
        Key: "Bb",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "It's Easy To Remember",
@@ -1349,6 +1732,8 @@ const songs = [
        PageNumber: 225,
        Key: "Eb",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "Jelly Roll",
@@ -1356,6 +1741,8 @@ const songs = [
        PageNumber: 226,
        Key: "Ab",
        Composer: "Charles Mingus"
+    ,
+       Selected: false
     },
     {
        Title: "Jordu",
@@ -1363,6 +1750,8 @@ const songs = [
        PageNumber: 227,
        Key: "Eb",
        Composer: "Duke Jordan"
+    ,
+       Selected: false
     },
     {
        Title: "Journey To Recife",
@@ -1370,6 +1759,8 @@ const songs = [
        PageNumber: 228,
        Key: "Eb",
        Composer: "Bill Evans"
+    ,
+       Selected: false
     },
     {
        Title: "Joy Spring",
@@ -1377,6 +1768,8 @@ const songs = [
        PageNumber: 229,
        Key: "F",
        Composer: "Clifford Brown"
+    ,
+       Selected: false
     },
     {
        Title: "Juju",
@@ -1384,6 +1777,8 @@ const songs = [
        PageNumber: 230,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "June In January",
@@ -1391,6 +1786,8 @@ const songs = [
        PageNumber: 231,
        Key: "Eb",
        Composer: "Leo Robin"
+    ,
+       Selected: false
     },
     {
        Title: "Jump Monk",
@@ -1398,6 +1795,8 @@ const songs = [
        PageNumber: 232,
        Key: "Ab",
        Composer: "Charles Mingus"
+    ,
+       Selected: false
     },
     {
        Title: "Just One More Chance",
@@ -1405,6 +1804,8 @@ const songs = [
        PageNumber: 234,
        Key: "G",
        Composer: "Arthur Johnston"
+    ,
+       Selected: false
     },
     {
        Title: "Lady Bird",
@@ -1412,6 +1813,8 @@ const songs = [
        PageNumber: 235,
        Key: "C",
        Composer: "Tadd Dameron"
+    ,
+       Selected: false
     },
     {
        Title: "Kelo",
@@ -1419,6 +1822,8 @@ const songs = [
        PageNumber: 236,
        Key: "Ab",
        Composer: "J. J. Johnson"
+    ,
+       Selected: false
     },
     {
        Title: "Lady Sings The Blues",
@@ -1426,6 +1831,8 @@ const songs = [
        PageNumber: 238,
        Key: "Ab",
        Composer: "Herbert Nichols"
+    ,
+       Selected: false
     },
     {
        Title: "Lament",
@@ -1433,6 +1840,8 @@ const songs = [
        PageNumber: 239,
        Key: "F",
        Composer: "J. J. Johnson"
+    ,
+       Selected: false
     },
     {
        Title: "Las Vegas Tango",
@@ -1440,6 +1849,8 @@ const songs = [
        PageNumber: 240,
        Key: "G",
        Composer: "Bill Evans"
+    ,
+       Selected: false
     },
     {
        Title: "Lazy Bird",
@@ -1447,6 +1858,8 @@ const songs = [
        PageNumber: 241,
        Key: "G",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Lazy River",
@@ -1454,6 +1867,8 @@ const songs = [
        PageNumber: 242,
        Key: "F",
        Composer: "Hoagy Carmichael"
+    ,
+       Selected: false
     },
     {
        Title: "Like Someone In Love",
@@ -1461,6 +1876,8 @@ const songs = [
        PageNumber: 243,
        Key: "Eb",
        Composer: "Jimmy Van Heusen"
+    ,
+       Selected: false
     },
     {
        Title: "Limehouse Blues",
@@ -1468,6 +1885,8 @@ const songs = [
        PageNumber: 244,
        Key: "Ab",
        Composer: "Philip Braham"
+    ,
+       Selected: false
     },
     {
        Title: "Little Boat",
@@ -1475,6 +1894,8 @@ const songs = [
        PageNumber: 245,
        Key: "Bb",
        Composer: "Roberto Menescal"
+    ,
+       Selected: false
     },
     {
        Title: "Lines And Spaces",
@@ -1482,6 +1903,8 @@ const songs = [
        PageNumber: 246,
        Key: "Bb",
        Composer: "Lovano,Joe"
+    ,
+       Selected: false
     },
     {
        Title: "Litha",
@@ -1489,6 +1912,8 @@ const songs = [
        PageNumber: 248,
        Key: "C",
        Composer: "Chick Corea"
+    ,
+       Selected: false
     },
     {
        Title: "Little Waltz",
@@ -1496,6 +1921,8 @@ const songs = [
        PageNumber: 250,
        Key: "Ab",
        Composer: "Ron Carter"
+    ,
+       Selected: false
     },
     {
        Title: "Long Ago (and Far Away)",
@@ -1503,6 +1930,8 @@ const songs = [
        PageNumber: 251,
        Key: "F",
        Composer: "Jerome Kern"
+    ,
+       Selected: false
     },
     {
        Title: "Lonnie's Lament",
@@ -1510,6 +1939,8 @@ const songs = [
        PageNumber: 252,
        Key: "Eb",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Look To The Sky",
@@ -1517,6 +1948,8 @@ const songs = [
        PageNumber: 253,
        Key: "Eb",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "Love Is The Sweetest Thing",
@@ -1524,6 +1957,8 @@ const songs = [
        PageNumber: 254,
        Key: "D",
        Composer: "Ray Noble"
+    ,
+       Selected: false
     },
     {
        Title: "Lucky Southern",
@@ -1531,6 +1966,8 @@ const songs = [
        PageNumber: 255,
        Key: "D",
        Composer: "Keith Jarrett"
+    ,
+       Selected: false
     },
     {
        Title: "Lullaby Of Birdland",
@@ -1538,6 +1975,8 @@ const songs = [
        PageNumber: 256,
        Key: "Ab",
        Composer: "George Shearing"
+    ,
+       Selected: false
     },
     {
        Title: "Magician In You, The",
@@ -1545,6 +1984,8 @@ const songs = [
        PageNumber: 257,
        Key: "C",
        Composer: "Keith Jarrett"
+    ,
+       Selected: false
     },
     {
        Title: "Lush Life",
@@ -1552,6 +1993,8 @@ const songs = [
        PageNumber: 258,
        Key: "Db",
        Composer: "Billy Strayhorn"
+    ,
+       Selected: false
     },
     {
        Title: "Mahjong",
@@ -1559,6 +2002,8 @@ const songs = [
        PageNumber: 260,
        Key: "Ab",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Maiden Voyage",
@@ -1566,6 +2011,8 @@ const songs = [
        PageNumber: 261,
        Key: "C",
        Composer: "Herbie Hancock"
+    ,
+       Selected: false
     },
     {
        Title: "A Man And A Woman",
@@ -1573,6 +2020,8 @@ const songs = [
        PageNumber: 262,
        Key: "D",
        Composer: "Jerry Keller"
+    ,
+       Selected: false
     },
     {
        Title: "Man In The Green Shirt",
@@ -1580,6 +2029,8 @@ const songs = [
        PageNumber: 264,
        Key: "C",
        Composer: "Joe Zawinul"
+    ,
+       Selected: false
     },
     {
        Title: "Meditation",
@@ -1587,6 +2038,8 @@ const songs = [
        PageNumber: 266,
        Key: "C",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "Memories Of Tomorrow",
@@ -1594,6 +2047,8 @@ const songs = [
        PageNumber: 267,
        Key: "Am",
        Composer: "Keith Jarrett"
+    ,
+       Selected: false
     },
     {
        Title: "Michelle",
@@ -1601,6 +2056,8 @@ const songs = [
        PageNumber: 268,
        Key: "Ab",
        Composer: "John Lennon"
+    ,
+       Selected: false
     },
     {
        Title: "Midnight Mood",
@@ -1608,6 +2065,8 @@ const songs = [
        PageNumber: 269,
        Key: "Db",
        Composer: "Joe Zawinul"
+    ,
+       Selected: false
     },
     {
        Title: "Midwestern Nights Dream",
@@ -1615,6 +2074,8 @@ const songs = [
        PageNumber: 270,
        Key: "D",
        Composer: "Pat Metheny"
+    ,
+       Selected: false
     },
     {
        Title: "Milano",
@@ -1622,6 +2083,8 @@ const songs = [
        PageNumber: 272,
        Key: "C",
        Composer: "John Lewis"
+    ,
+       Selected: false
     },
     {
        Title: "Minority",
@@ -1629,6 +2092,8 @@ const songs = [
        PageNumber: 273,
        Key: "Ab",
        Composer: "Gigi Gryce"
+    ,
+       Selected: false
     },
     {
        Title: "Miss Ann",
@@ -1636,6 +2101,8 @@ const songs = [
        PageNumber: 274,
        Key: "C",
        Composer: "Eric Dolphy"
+    ,
+       Selected: false
     },
     {
        Title: "Missouri Uncompromised",
@@ -1643,6 +2110,8 @@ const songs = [
        PageNumber: 275,
        Key: "A",
        Composer: "Pat Metheny"
+    ,
+       Selected: false
     },
     {
        Title: "Mr. P.C.",
@@ -1650,6 +2119,8 @@ const songs = [
        PageNumber: 276,
        Key: "Eb",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Misty",
@@ -1657,6 +2128,8 @@ const songs = [
        PageNumber: 277,
        Key: "Eb",
        Composer: "Erroll Garner"
+    ,
+       Selected: false
     },
     {
        Title: "Miyako",
@@ -1664,6 +2137,8 @@ const songs = [
        PageNumber: 278,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Mood Indigo",
@@ -1671,6 +2146,8 @@ const songs = [
        PageNumber: 279,
        Key: "Ab",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "Moment's Notice",
@@ -1678,6 +2155,8 @@ const songs = [
        PageNumber: 280,
        Key: "Eb",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Moonchild",
@@ -1685,6 +2164,8 @@ const songs = [
        PageNumber: 282,
        Key: "E",
        Composer: "Keith Jarrett"
+    ,
+       Selected: false
     },
     {
        Title: "Most Beautiful Girl In The World, The",
@@ -1692,6 +2173,8 @@ const songs = [
        PageNumber: 283,
        Key: "F",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "My Buddy",
@@ -1699,6 +2182,8 @@ const songs = [
        PageNumber: 284,
        Key: "G",
        Composer: "Walter Donaldson"
+    ,
+       Selected: false
     },
     {
        Title: "My Favorite Things",
@@ -1706,6 +2191,8 @@ const songs = [
        PageNumber: 285,
        Key: "G",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "My Foolish Heart",
@@ -1713,6 +2200,8 @@ const songs = [
        PageNumber: 286,
        Key: "Bb",
        Composer: "Victor Young"
+    ,
+       Selected: false
     },
     {
        Title: "My Funny Valentine",
@@ -1720,6 +2209,8 @@ const songs = [
        PageNumber: 287,
        Key: "Eb",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "My One And Only Love",
@@ -1727,6 +2218,8 @@ const songs = [
        PageNumber: 288,
        Key: "C",
        Composer: "Guy Wood"
+    ,
+       Selected: false
     },
     {
        Title: "My Romance",
@@ -1734,6 +2227,8 @@ const songs = [
        PageNumber: 289,
        Key: "Bb",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "My Shining Hour",
@@ -1741,6 +2236,8 @@ const songs = [
        PageNumber: 290,
        Key: "Eb",
        Composer: "Harold Arlen"
+    ,
+       Selected: false
     },
     {
        Title: "My Ship",
@@ -1748,6 +2245,8 @@ const songs = [
        PageNumber: 291,
        Key: "C",
        Composer: "Kurt Weill"
+    ,
+       Selected: false
     },
     {
        Title: "My Way",
@@ -1755,6 +2254,8 @@ const songs = [
        PageNumber: 292,
        Key: "C",
        Composer: "Claude Francois"
+    ,
+       Selected: false
     },
     {
        Title: "Naima",
@@ -1762,6 +2263,8 @@ const songs = [
        PageNumber: 293,
        Key: "Ab",
        Composer: "John Coltrane"
+    ,
+       Selected: false
     },
     {
        Title: "Mysterious Traveller",
@@ -1769,6 +2272,8 @@ const songs = [
        PageNumber: 294,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Nardis",
@@ -1776,6 +2281,8 @@ const songs = [
        PageNumber: 296,
        Key: "G",
        Composer: "Miles Davis"
+    ,
+       Selected: false
     },
     {
        Title: "Nefertiti",
@@ -1783,6 +2290,8 @@ const songs = [
        PageNumber: 297,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Never Will I Marry",
@@ -1790,6 +2299,8 @@ const songs = [
        PageNumber: 298,
        Key: "Bb",
        Composer: "Frank Loesser"
+    ,
+       Selected: false
     },
     {
        Title: "Nica's Dream",
@@ -1797,6 +2308,8 @@ const songs = [
        PageNumber: 299,
        Key: "Ab",
        Composer: "Horace Silver"
+    ,
+       Selected: false
     },
     {
        Title: "Night Dreamer",
@@ -1804,6 +2317,8 @@ const songs = [
        PageNumber: 300,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Night Has A Thousand Eyes, The",
@@ -1811,6 +2326,8 @@ const songs = [
        PageNumber: 301,
        Key: "C",
        Composer: "Jerry Brainin"
+    ,
+       Selected: false
     },
     {
        Title: "A Night In Tunisia",
@@ -1818,6 +2335,8 @@ const songs = [
        PageNumber: 302,
        Key: "F",
        Composer: "Dizzy Gillespie"
+    ,
+       Selected: false
     },
     {
        Title: "Nobody Knows You When You're Down And Out",
@@ -1825,6 +2344,8 @@ const songs = [
        PageNumber: 303,
        Key: "F",
        Composer: "Jimmie Cox"
+    ,
+       Selected: false
     },
     {
        Title: "Night Train",
@@ -1832,6 +2353,8 @@ const songs = [
        PageNumber: 304,
        Key: "Bb",
        Composer: "Jimmy Forrest"
+    ,
+       Selected: false
     },
     {
        Title: "Nostalgia In Times Square",
@@ -1839,6 +2362,8 @@ const songs = [
        PageNumber: 306,
        Key: "F",
        Composer: "Charles Mingus"
+    ,
+       Selected: false
     },
     {
        Title: "Nuages",
@@ -1846,6 +2371,8 @@ const songs = [
        PageNumber: 307,
        Key: "G",
        Composer: "Django Reinhardt"
+    ,
+       Selected: false
     },
     {
        Title: "Old Man From The Old Country",
@@ -1853,6 +2380,8 @@ const songs = [
        PageNumber: 308,
        Key: "Eb",
        Composer: "Nat Adderley"
+    ,
+       Selected: false
     },
     {
        Title: "Oleo",
@@ -1860,6 +2389,8 @@ const songs = [
        PageNumber: 309,
        Key: "Bb",
        Composer: "Sonny Rollins"
+    ,
+       Selected: false
     },
     {
        Title: "Oliloqui Valley",
@@ -1867,6 +2398,8 @@ const songs = [
        PageNumber: 310,
        Key: "C",
        Composer: "Herbie Hancock"
+    ,
+       Selected: false
     },
     {
        Title: "Once I Loved",
@@ -1874,6 +2407,8 @@ const songs = [
        PageNumber: 311,
        Key: "F",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "Once In Love With Amy",
@@ -1881,6 +2416,8 @@ const songs = [
        PageNumber: 312,
        Key: "G",
        Composer: "Frank Loesser"
+    ,
+       Selected: false
     },
     {
        Title: "One Finger Snap",
@@ -1888,6 +2425,8 @@ const songs = [
        PageNumber: 313,
        Key: "C",
        Composer: "Herbie Hancock"
+    ,
+       Selected: false
     },
     {
        Title: "One Note Samba",
@@ -1895,6 +2434,8 @@ const songs = [
        PageNumber: 314,
        Key: "Bb",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "Only Trust Your Heart",
@@ -1902,6 +2443,8 @@ const songs = [
        PageNumber: 315,
        Key: "C",
        Composer: "Benny Carter"
+    ,
+       Selected: false
     },
     {
        Title: "Orbits",
@@ -1909,6 +2452,8 @@ const songs = [
        PageNumber: 316,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Ornithology",
@@ -1916,6 +2461,8 @@ const songs = [
        PageNumber: 317,
        Key: "G",
        Composer: "Charlie Parker"
+    ,
+       Selected: false
     },
     {
        Title: "Out Of Nowhere",
@@ -1923,6 +2470,8 @@ const songs = [
        PageNumber: 318,
        Key: "G",
        Composer: "Johnny Green"
+    ,
+       Selected: false
     },
     {
        Title: "Paper Doll",
@@ -1930,6 +2479,8 @@ const songs = [
        PageNumber: 319,
        Key: "F",
        Composer: "J. Black"
+    ,
+       Selected: false
     },
     {
        Title: "Passion Dance",
@@ -1937,6 +2488,8 @@ const songs = [
        PageNumber: 320,
        Key: "C",
        Composer: "McCoy Tyner"
+    ,
+       Selected: false
     },
     {
        Title: "Passion Flower",
@@ -1944,6 +2497,8 @@ const songs = [
        PageNumber: 321,
        Key: "G",
        Composer: "Billy Strayhorn"
+    ,
+       Selected: false
     },
     {
        Title: "Peace",
@@ -1951,6 +2506,8 @@ const songs = [
        PageNumber: 322,
        Key: "Bb",
        Composer: "J. J. Zachary"
+    ,
+       Selected: false
     },
     {
        Title: "Peggy's Blue Skylight",
@@ -1958,6 +2515,8 @@ const songs = [
        PageNumber: 323,
        Key: "Db",
        Composer: "Charles Mingus"
+    ,
+       Selected: false
     },
     {
        Title: "Pent Up House",
@@ -1965,6 +2524,8 @@ const songs = [
        PageNumber: 324,
        Key: "G",
        Composer: "Sonny Rollins"
+    ,
+       Selected: false
     },
     {
        Title: "Penthouse Serenade",
@@ -1972,6 +2533,8 @@ const songs = [
        PageNumber: 325,
        Key: "C",
        Composer: "Will Jason"
+    ,
+       Selected: false
     },
     {
        Title: "Peri's Scope",
@@ -1979,6 +2542,8 @@ const songs = [
        PageNumber: 326,
        Key: "C",
        Composer: "Bill Evans"
+    ,
+       Selected: false
     },
     {
        Title: "Pfrancing (no Blues)",
@@ -1986,6 +2551,8 @@ const songs = [
        PageNumber: 327,
        Key: "F",
        Composer: "Miles Davis"
+    ,
+       Selected: false
     },
     {
        Title: "Pinocchio",
@@ -1993,6 +2560,8 @@ const songs = [
        PageNumber: 328,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Pithecanthropus Erectus",
@@ -2000,6 +2569,8 @@ const songs = [
        PageNumber: 329,
        Key: "Ab",
        Composer: "Charles Mingus"
+    ,
+       Selected: false
     },
     {
        Title: "Portsmouth Figurations",
@@ -2007,6 +2578,8 @@ const songs = [
        PageNumber: 330,
        Key: "G",
        Composer: "Steve Swallow"
+    ,
+       Selected: false
     },
     {
        Title: "Prelude To A Kiss",
@@ -2014,6 +2587,8 @@ const songs = [
        PageNumber: 331,
        Key: "C",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "Prince Of Darkness",
@@ -2021,6 +2596,8 @@ const songs = [
        PageNumber: 332,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "P.S.I Love You",
@@ -2028,6 +2605,8 @@ const songs = [
        PageNumber: 333,
        Key: "Eb",
        Composer: "Gordon Jenkins"
+    ,
+       Selected: false
     },
     {
        Title: "Pussy Cat Dues",
@@ -2035,6 +2614,8 @@ const songs = [
        PageNumber: 334,
        Key: "D",
        Composer: "Charles Mingus"
+    ,
+       Selected: false
     },
     {
        Title: "Quiet Nights Of Quiet Stars",
@@ -2042,6 +2623,8 @@ const songs = [
        PageNumber: 335,
        Key: "C",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "Quiet Now",
@@ -2049,6 +2632,8 @@ const songs = [
        PageNumber: 336,
        Key: "C",
        Composer: "Denny Zeitlin"
+    ,
+       Selected: false
     },
     {
        Title: "Recorda-Me",
@@ -2056,6 +2641,8 @@ const songs = [
        PageNumber: 337,
        Key: "C",
        Composer: "Joe Henderson"
+    ,
+       Selected: false
     },
     {
        Title: "Red Clay",
@@ -2063,6 +2650,8 @@ const songs = [
        PageNumber: 338,
        Key: "Eb",
        Composer: "Freddie Hubbard"
+    ,
+       Selected: false
     },
     {
        Title: "Reflections",
@@ -2070,6 +2659,8 @@ const songs = [
        PageNumber: 339,
        Key: "Ab",
        Composer: "Thelonious Monk"
+    ,
+       Selected: false
     },
     {
        Title: "Ring Dem Bells",
@@ -2077,6 +2668,8 @@ const songs = [
        PageNumber: 340,
        Key: "C",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "Reincarnation Of A Lovebird",
@@ -2084,6 +2677,8 @@ const songs = [
        PageNumber: 342,
        Key: "Bb",
        Composer: "Charles Mingus"
+    ,
+       Selected: false
     },
     {
        Title: "Road Song",
@@ -2091,6 +2686,8 @@ const songs = [
        PageNumber: 344,
        Key: "Bb",
        Composer: "Wes Montgomery"
+    ,
+       Selected: false
     },
     {
        Title: "Round Midnight",
@@ -2098,6 +2695,8 @@ const songs = [
        PageNumber: 345,
        Key: "Eb",
        Composer: "Thelonious Monk"
+    ,
+       Selected: false
     },
     {
        Title: "Ruby, My Dear",
@@ -2105,6 +2704,8 @@ const songs = [
        PageNumber: 346,
        Key: "Ab",
        Composer: "Thelonious Monk"
+    ,
+       Selected: false
     },
     {
        Title: "Saga Of Harrison Crabfeathers, The",
@@ -2112,6 +2713,8 @@ const songs = [
        PageNumber: 348,
        Key: "C",
        Composer: "Steve Kuhn"
+    ,
+       Selected: false
     },
     {
        Title: "Satin Doll",
@@ -2119,6 +2722,8 @@ const songs = [
        PageNumber: 349,
        Key: "C",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "Scotch And Soda",
@@ -2126,6 +2731,8 @@ const songs = [
        PageNumber: 350,
        Key: "Eb",
        Composer: "Dave Guard"
+    ,
+       Selected: false
     },
     {
        Title: "Scrapple From The Apple",
@@ -2133,6 +2740,8 @@ const songs = [
        PageNumber: 351,
        Key: "F",
        Composer: "Charlie Parker"
+    ,
+       Selected: false
     },
     {
        Title: "Sea Journey",
@@ -2140,6 +2749,8 @@ const songs = [
        PageNumber: 352,
        Key: "Am",
        Composer: "Chick Corea"
+    ,
+       Selected: false
     },
     {
        Title: "Seven Come Eleven",
@@ -2147,6 +2758,8 @@ const songs = [
        PageNumber: 354,
        Key: "Ab",
        Composer: "Benny Goodman"
+    ,
+       Selected: false
     },
     {
        Title: "Sidewinder",
@@ -2154,6 +2767,8 @@ const songs = [
        PageNumber: 355,
        Key: "Eb",
        Composer: "Lee Morgan"
+    ,
+       Selected: false
     },
     {
        Title: "Seven Steps To Heaven",
@@ -2161,6 +2776,8 @@ const songs = [
        PageNumber: 356,
        Key: "F",
        Composer: "Victor Feldman"
+    ,
+       Selected: false
     },
     {
        Title: "Silver Hollow",
@@ -2168,6 +2785,8 @@ const songs = [
        PageNumber: 357,
        Key: "D",
        Composer: "Jack DeJohnette"
+    ,
+       Selected: false
     },
     {
        Title: "Sirabhorn",
@@ -2175,6 +2794,8 @@ const songs = [
        PageNumber: 358,
        Key: "C",
        Composer: "Pat Metheny"
+    ,
+       Selected: false
     },
     {
        Title: "Skating In Central Park",
@@ -2182,6 +2803,8 @@ const songs = [
        PageNumber: 360,
        Key: "C",
        Composer: "John Lewis"
+    ,
+       Selected: false
     },
     {
        Title: "So Nice",
@@ -2189,6 +2812,8 @@ const songs = [
        PageNumber: 362,
        Key: "F",
        Composer: "Marco Valles"
+    ,
+       Selected: false
     },
     {
        Title: "Solar",
@@ -2196,6 +2821,8 @@ const songs = [
        PageNumber: 363,
        Key: "Eb",
        Composer: "Miles Davis"
+    ,
+       Selected: false
     },
     {
        Title: "So What",
@@ -2203,6 +2830,8 @@ const songs = [
        PageNumber: 364,
        Key: "C",
        Composer: "Miles Davis"
+    ,
+       Selected: false
     },
     {
        Title: "Solitude",
@@ -2210,6 +2839,8 @@ const songs = [
        PageNumber: 366,
        Key: "Eb",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "Some Day My Prince Will Come",
@@ -2217,6 +2848,8 @@ const songs = [
        PageNumber: 367,
        Key: "Bb",
        Composer: "Larry Morey"
+    ,
+       Selected: false
     },
     {
        Title: "Some Other Spring",
@@ -2224,6 +2857,8 @@ const songs = [
        PageNumber: 368,
        Key: "C",
        Composer: "Arthur Jr. Herzog"
+    ,
+       Selected: false
     },
     {
        Title: "Somebody Loves Me",
@@ -2231,6 +2866,8 @@ const songs = [
        PageNumber: 369,
        Key: "F",
        Composer: "George Gershwin"
+    ,
+       Selected: false
     },
     {
        Title: "Some Skunk Funk",
@@ -2238,6 +2875,8 @@ const songs = [
        PageNumber: 370,
        Key: "Bb",
        Composer: "Randy Brecker"
+    ,
+       Selected: false
     },
     {
        Title: "Sometime Ago",
@@ -2245,6 +2884,8 @@ const songs = [
        PageNumber: 372,
        Key: "C",
        Composer: "Sergio Mihanovich"
+    ,
+       Selected: false
     },
     {
        Title: "Song For My Father",
@@ -2252,6 +2893,8 @@ const songs = [
        PageNumber: 373,
        Key: "Ab",
        Composer: "Horace Silver"
+    ,
+       Selected: false
     },
     {
        Title: "Song Is You, The",
@@ -2259,6 +2902,8 @@ const songs = [
        PageNumber: 374,
        Key: "C",
        Composer: "Jerome Kern"
+    ,
+       Selected: false
     },
     {
        Title: "Sophisticated Lady",
@@ -2266,6 +2911,8 @@ const songs = [
        PageNumber: 376,
        Key: "Ab",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "Sorcerer, The",
@@ -2273,6 +2920,8 @@ const songs = [
        PageNumber: 377,
        Key: "C",
        Composer: "Herbie Hancock"
+    ,
+       Selected: false
     },
     {
        Title: "Speak No Evil",
@@ -2280,6 +2929,8 @@ const songs = [
        PageNumber: 378,
        Key: "Eb",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Sphinx, The",
@@ -2287,6 +2938,8 @@ const songs = [
        PageNumber: 379,
        Key: "A",
        Composer: "Ornette Coleman"
+    ,
+       Selected: false
     },
     {
        Title: "Standing On The Corner",
@@ -2294,6 +2947,8 @@ const songs = [
        PageNumber: 380,
        Key: "F",
        Composer: "Frank Loesser"
+    ,
+       Selected: false
     },
     {
        Title: "Star-Crossed Lovers, The",
@@ -2301,6 +2956,8 @@ const songs = [
        PageNumber: 381,
        Key: "Db",
        Composer: "Strayhorn-Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "Stella By Starlight",
@@ -2308,6 +2965,8 @@ const songs = [
        PageNumber: 382,
        Key: "Bb",
        Composer: "Victor Young"
+    ,
+       Selected: false
     },
     {
        Title: "Steps",
@@ -2315,6 +2974,8 @@ const songs = [
        PageNumber: 383,
        Key: "Eb",
        Composer: "Chick Corea"
+    ,
+       Selected: false
     },
     {
        Title: "Stolen Moments",
@@ -2322,6 +2983,8 @@ const songs = [
        PageNumber: 384,
        Key: "Eb",
        Composer: "Oliver Nelson"
+    ,
+       Selected: false
     },
     {
        Title: "Stompin' At The Savoy",
@@ -2329,6 +2992,8 @@ const songs = [
        PageNumber: 385,
        Key: "Db",
        Composer: "Webb|Goodman|Sampson"
+    ,
+       Selected: false
     },
     {
        Title: "Straight No Chaser",
@@ -2336,6 +3001,8 @@ const songs = [
        PageNumber: 386,
        Key: "Bb",
        Composer: "Thelonious Monk"
+    ,
+       Selected: false
     },
     {
        Title: "Sugar",
@@ -2343,6 +3010,8 @@ const songs = [
        PageNumber: 387,
        Key: "Ab",
        Composer: "George W. Meyer"
+    ,
+       Selected: false
     },
     {
        Title: "A String Of Pearls",
@@ -2350,6 +3019,8 @@ const songs = [
        PageNumber: 388,
        Key: "C",
        Composer: "Jerry Gray"
+    ,
+       Selected: false
     },
     {
        Title: "Stuff",
@@ -2357,6 +3028,8 @@ const songs = [
        PageNumber: 390,
        Key: "C",
        Composer: "Miles Davis"
+    ,
+       Selected: false
     },
     {
        Title: "A Sunday Kind Of Love",
@@ -2364,6 +3037,8 @@ const songs = [
        PageNumber: 392,
        Key: "F",
        Composer: "Barbara Belle"
+    ,
+       Selected: false
     },
     {
        Title: "Surrey With The Fringe On Top, The",
@@ -2371,6 +3046,8 @@ const songs = [
        PageNumber: 393,
        Key: "Bb",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "Swedish Pastry",
@@ -2378,6 +3055,8 @@ const songs = [
        PageNumber: 394,
        Key: "C",
        Composer: "Barney Kessel"
+    ,
+       Selected: false
     },
     {
        Title: "Sweet Georgia Bright",
@@ -2385,6 +3064,8 @@ const songs = [
        PageNumber: 395,
        Key: "C",
        Composer: "Charles F. Lloyd"
+    ,
+       Selected: false
     },
     {
        Title: "Sweet Henry",
@@ -2392,6 +3073,8 @@ const songs = [
        PageNumber: 396,
        Key: "D",
        Composer: "Jack Gregg"
+    ,
+       Selected: false
     },
     {
        Title: "Take Five",
@@ -2399,6 +3082,8 @@ const songs = [
        PageNumber: 397,
        Key: "Ebm",
        Composer: "Paul Desmond"
+    ,
+       Selected: false
     },
     {
        Title: "Take The 'A' Train",
@@ -2406,6 +3091,8 @@ const songs = [
        PageNumber: 398,
        Key: "C",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "Thanks For The Memory",
@@ -2413,6 +3100,8 @@ const songs = [
        PageNumber: 399,
        Key: "F",
        Composer: "Leo Robin"
+    ,
+       Selected: false
     },
     {
        Title: "Tame Thy Pen",
@@ -2420,6 +3109,8 @@ const songs = [
        PageNumber: 400,
        Key: "C",
        Composer: "Richard Niles"
+    ,
+       Selected: false
     },
     {
        Title: "Tell Me A Bedtime Story",
@@ -2427,6 +3118,8 @@ const songs = [
        PageNumber: 402,
        Key: "C",
        Composer: "Herbie Hancock"
+    ,
+       Selected: false
     },
     {
        Title: "That's Amore",
@@ -2434,6 +3127,8 @@ const songs = [
        PageNumber: 404,
        Key: "Bb",
        Composer: "Harry Warren"
+    ,
+       Selected: false
     },
     {
        Title: "There Is No Greater Love",
@@ -2441,6 +3136,8 @@ const songs = [
        PageNumber: 406,
        Key: "Bb",
        Composer: "Isham Jones"
+    ,
+       Selected: false
     },
     {
        Title: "There Will Never Be Another You",
@@ -2448,6 +3145,8 @@ const songs = [
        PageNumber: 407,
        Key: "Eb",
        Composer: "Harry Warren"
+    ,
+       Selected: false
     },
     {
        Title: "There'll Be Some Changes Made",
@@ -2455,6 +3154,8 @@ const songs = [
        PageNumber: 408,
        Key: "Bb",
        Composer: "W.Benton Overstreet"
+    ,
+       Selected: false
     },
     {
        Title: "They Didn't Believe Me",
@@ -2462,6 +3163,8 @@ const songs = [
        PageNumber: 409,
        Key: "G",
        Composer: "Jerome Kern"
+    ,
+       Selected: false
     },
     {
        Title: "Think On Me",
@@ -2469,6 +3172,8 @@ const songs = [
        PageNumber: 410,
        Key: "C",
        Composer: "George Cables"
+    ,
+       Selected: false
     },
     {
        Title: "Thou Swell",
@@ -2476,6 +3181,8 @@ const songs = [
        PageNumber: 411,
        Key: "Eb",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "Three Flowers",
@@ -2483,6 +3190,8 @@ const songs = [
        PageNumber: 412,
        Key: "Eb",
        Composer: "McCoy Tyner"
+    ,
+       Selected: false
     },
     {
        Title: "Time Remembered",
@@ -2490,6 +3199,8 @@ const songs = [
        PageNumber: 413,
        Key: "C",
        Composer: "Bill Evans"
+    ,
+       Selected: false
     },
     {
        Title: "Tones For Joan's Bones",
@@ -2497,6 +3208,8 @@ const songs = [
        PageNumber: 414,
        Key: "D",
        Composer: "Chick Corea"
+    ,
+       Selected: false
     },
     {
        Title: "Topsy",
@@ -2504,6 +3217,8 @@ const songs = [
        PageNumber: 415,
        Key: "F",
        Composer: "Edgar Battle"
+    ,
+       Selected: false
     },
     {
        Title: "Tour De Force",
@@ -2511,6 +3226,8 @@ const songs = [
        PageNumber: 416,
        Key: "Ab",
        Composer: "Dizzy Gillespie"
+    ,
+       Selected: false
     },
     {
        Title: "Triste",
@@ -2518,6 +3235,8 @@ const songs = [
        PageNumber: 417,
        Key: "Bb",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "Tune Up",
@@ -2525,6 +3244,8 @@ const songs = [
        PageNumber: 418,
        Key: "D",
        Composer: "Miles Davis"
+    ,
+       Selected: false
     },
     {
        Title: "Turn Out The Stars",
@@ -2532,6 +3253,8 @@ const songs = [
        PageNumber: 419,
        Key: "C",
        Composer: "Bill Evans"
+    ,
+       Selected: false
     },
     {
        Title: "Twisted Blues",
@@ -2539,6 +3262,8 @@ const songs = [
        PageNumber: 420,
        Key: "Db",
        Composer: "Wes Montgomery"
+    ,
+       Selected: false
     },
     {
        Title: "Uniquity Road",
@@ -2546,6 +3271,8 @@ const songs = [
        PageNumber: 421,
        Key: "n.a.",
        Composer: "Pat Metheny"
+    ,
+       Selected: false
     },
     {
        Title: "Unchain My Heart",
@@ -2553,6 +3280,8 @@ const songs = [
        PageNumber: 422,
        Key: "Am",
        Composer: "Bobby Sharp"
+    ,
+       Selected: false
     },
     {
        Title: "Unity Village",
@@ -2560,6 +3289,8 @@ const songs = [
        PageNumber: 424,
        Key: "Am",
        Composer: "Pat Metheny"
+    ,
+       Selected: false
     },
     {
        Title: "Up Jumped Spring",
@@ -2567,6 +3298,8 @@ const songs = [
        PageNumber: 425,
        Key: "Bb",
        Composer: "Freddie Hubbard"
+    ,
+       Selected: false
     },
     {
        Title: "Upper Manhattan Medical Group",
@@ -2574,6 +3307,8 @@ const songs = [
        PageNumber: 426,
        Key: "Db",
        Composer: "Billy Strayhorn"
+    ,
+       Selected: false
     },
     {
        Title: "Valse Hot",
@@ -2581,6 +3316,8 @@ const songs = [
        PageNumber: 427,
        Key: "Ab",
        Composer: "Sonny Rollins"
+    ,
+       Selected: false
     },
     {
        Title: "Very Early",
@@ -2588,6 +3325,8 @@ const songs = [
        PageNumber: 428,
        Key: "C",
        Composer: "Bill Evans"
+    ,
+       Selected: false
     },
     {
        Title: "Virgo",
@@ -2595,6 +3334,8 @@ const songs = [
        PageNumber: 429,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Wait Till You See Her",
@@ -2602,6 +3343,8 @@ const songs = [
        PageNumber: 430,
        Key: "Eb",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "Wave",
@@ -2609,6 +3352,8 @@ const songs = [
        PageNumber: 431,
        Key: "D",
        Composer: "Antonio Carlos Jobim"
+    ,
+       Selected: false
     },
     {
        Title: "Waltz For Debby",
@@ -2616,6 +3361,8 @@ const songs = [
        PageNumber: 432,
        Key: "F",
        Composer: "Bill Evans"
+    ,
+       Selected: false
     },
     {
        Title: "We'll Be Together Again",
@@ -2623,6 +3370,8 @@ const songs = [
        PageNumber: 434,
        Key: "C",
        Composer: "Carl Fischer"
+    ,
+       Selected: false
     },
     {
        Title: "Well You Needn't",
@@ -2630,6 +3379,8 @@ const songs = [
        PageNumber: 435,
        Key: "F",
        Composer: "Thelonious Monk"
+    ,
+       Selected: false
     },
     {
        Title: "West Coast Blues",
@@ -2637,6 +3388,8 @@ const songs = [
        PageNumber: 436,
        Key: "Bb",
        Composer: "Wes Montgomery"
+    ,
+       Selected: false
     },
     {
        Title: "What Am I Here For?",
@@ -2644,6 +3397,8 @@ const songs = [
        PageNumber: 437,
        Key: "Bb",
        Composer: "Duke Ellington"
+    ,
+       Selected: false
     },
     {
        Title: "What Was",
@@ -2651,6 +3406,8 @@ const songs = [
        PageNumber: 438,
        Key: "C",
        Composer: "Chick Corea"
+    ,
+       Selected: false
     },
     {
        Title: "When I Fall In Love",
@@ -2658,6 +3415,8 @@ const songs = [
        PageNumber: 439,
        Key: "Bb",
        Composer: "Victor Young"
+    ,
+       Selected: false
     },
     {
        Title: "When Sunny Gets Blue",
@@ -2665,6 +3424,8 @@ const songs = [
        PageNumber: 440,
        Key: "F",
        Composer: "Marvin Fisher"
+    ,
+       Selected: false
     },
     {
        Title: "When You Wish Upon A Star",
@@ -2672,6 +3433,8 @@ const songs = [
        PageNumber: 441,
        Key: "C",
        Composer: "Leigh Harline"
+    ,
+       Selected: false
     },
     {
        Title: "Whispering",
@@ -2679,6 +3442,8 @@ const songs = [
        PageNumber: 442,
        Key: "Eb",
        Composer: "John Schonberger"
+    ,
+       Selected: false
     },
     {
        Title: "Windows",
@@ -2686,6 +3451,8 @@ const songs = [
        PageNumber: 443,
        Key: "C",
        Composer: "Chick Corea"
+    ,
+       Selected: false
     },
     {
        Title: "Wild Flower",
@@ -2693,6 +3460,8 @@ const songs = [
        PageNumber: 444,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Witch Hunt",
@@ -2700,6 +3469,8 @@ const songs = [
        PageNumber: 446,
        Key: "Eb",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Woodchopper's Ball",
@@ -2707,6 +3478,8 @@ const songs = [
        PageNumber: 447,
        Key: "Db",
        Composer: "Woody Herman"
+    ,
+       Selected: false
     },
     {
        Title: "Wives And Lovers",
@@ -2714,6 +3487,8 @@ const songs = [
        PageNumber: 448,
        Key: "Eb",
        Composer: "Burt Bacharach"
+    ,
+       Selected: false
     },
     {
        Title: "Woodyn' You",
@@ -2721,6 +3496,8 @@ const songs = [
        PageNumber: 450,
        Key: "Db",
        Composer: "Dizzy Gillespie"
+    ,
+       Selected: false
     },
     {
        Title: "World Is Waiting For The Sunrise, The",
@@ -2728,6 +3505,8 @@ const songs = [
        PageNumber: 451,
        Key: "C",
        Composer: "Ernest Seitz"
+    ,
+       Selected: false
     },
     {
        Title: "Yes And No",
@@ -2735,6 +3514,8 @@ const songs = [
        PageNumber: 452,
        Key: "C",
        Composer: "Wayne Shorter"
+    ,
+       Selected: false
     },
     {
        Title: "Yesterday",
@@ -2742,6 +3523,8 @@ const songs = [
        PageNumber: 453,
        Key: "F",
        Composer: "Lennon|McCartney"
+    ,
+       Selected: false
     },
     {
        Title: "Yesterdays",
@@ -2749,6 +3532,8 @@ const songs = [
        PageNumber: 454,
        Key: "F",
        Composer: "Jerome Kern"
+    ,
+       Selected: false
     },
     {
        Title: "You Are Too Beautiful",
@@ -2756,6 +3541,8 @@ const songs = [
        PageNumber: 455,
        Key: "C",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "You Are The Sunshine Of My Life",
@@ -2763,6 +3550,8 @@ const songs = [
        PageNumber: 456,
        Key: "C",
        Composer: "Stevie Wonder"
+    ,
+       Selected: false
     },
     {
        Title: "You Brought A New Kind Of Love To Me",
@@ -2770,6 +3559,8 @@ const songs = [
        PageNumber: 458,
        Key: "Ab",
        Composer: "Sammy Fain"
+    ,
+       Selected: false
     },
     {
        Title: "You Don't Know What Love Is",
@@ -2777,6 +3568,8 @@ const songs = [
        PageNumber: 459,
        Key: "Ab",
        Composer: "Don Raye"
+    ,
+       Selected: false
     },
     {
        Title: "You Took Advantage Of Me",
@@ -2784,6 +3577,8 @@ const songs = [
        PageNumber: 460,
        Key: "Eb",
        Composer: "Richard Rodgers"
+    ,
+       Selected: false
     },
     {
        Title: "Young At Heart",
@@ -2791,6 +3586,8 @@ const songs = [
        PageNumber: 461,
        Key: "Bb",
        Composer: "Johnny Richards"
+    ,
+       Selected: false
     },
     {
        Title: "You're Nobody 'til Somebody Loves You",
@@ -2798,5 +3595,7 @@ const songs = [
        PageNumber: 462,
        Key: "G",
        Composer: "Morgan|Stock|Cavanaugh"
+    ,
+       Selected: false
     }
   ]
