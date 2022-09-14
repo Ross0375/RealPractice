@@ -12,11 +12,17 @@
 <body>
   <main id="app" class="container">
     <h1 class="pb-5">Real Practice</h1>
+    <button class="btn btn-primary" @click="addRandom">Add Random Song</button>
+    <button class="btn btn-danger" @click="clearSongs">Clear Songs</button>
     <div class="input-group mb-3">
-      <select class="input-group-text form-select" v-model="selection">
+      <select class="input-group-text" v-model="selection">
         <option v-for="searchProp in searchType">{{ searchProp }}</option>
       </select>
-      <input type="text" class="form-control" v-model="input" placeholder="Search Songs" />
+      <input type="text" class="form-control" v-model="input" placeholder="Search..." />
+      <select class="input-group-text" v-model="keyFilter">
+        <option value="None">None</option>
+        <option v-for="key in keys">{{ key }}</option>
+      </select>
     </div>
     <div class="row container-fluid">
       <ul class="list-group col-sm-12 col-md-6 listHeight overflow-auto container-fluid" >
