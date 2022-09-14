@@ -11,8 +11,8 @@ const app = Vue.createApp({
             keys: [],
             keyFilter: "None",
             dailySong: {
-                date: "",
-                todaysSong: ""
+                date: null,
+                todaysSong: []
             }
         }
     },
@@ -30,6 +30,17 @@ const app = Vue.createApp({
             this.dailySong = JSON.parse(dailySong)
         }
 
+        const d = new Date().getDay()
+        console.log(d);
+            if (this.dailySong.date == null) {
+                this.dailySong.date = new Date().getDay()
+                const selectedSong = this.songs[Math.floor(Math.random()* this.songs.length)]
+                this.dailySong.todaysSong = selectedSong
+            } else if (this.dailySong.date != d){
+                const selectedSong = this.songs[Math.floor(Math.random()* this.songs.length)]
+                this.dailySong.todaysSong = selectedSong
+                this.dailySong.date = new Date().getDay()
+            }
 
         let unique = []
             this.songs.forEach(song => {
@@ -66,6 +77,7 @@ const app = Vue.createApp({
             }
             
         },
+        
     },
     methods: {
         addSong(selectedPage, index) {
@@ -98,7 +110,11 @@ const app = Vue.createApp({
             }
             this.selectedSongs.splice(0, this.selectedSongs.length)
             
-        }
+        },
+        
+        mounted() {  
+            
+        },
     },
     watch: {
         songs: {
