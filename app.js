@@ -96,7 +96,6 @@ const app = Vue.createApp({
                 const selectedSong = this.songs.find(song => song.PageNumber === this.selectedSongs[i].PageNumber)
                 selectedSong.Selected = false
             }
-
             this.selectedSongs.splice(0, this.selectedSongs.length)
             
         }
